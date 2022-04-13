@@ -1,0 +1,144 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MakeWebableJson/1.0.0": {
+        "dependencies": {
+          "System.Json": "4.7.1",
+          "System.Text.Json": "6.0.2",
+          "WebGrease": "1.6.0"
+        },
+        "runtime": {
+          "MakeWebableJson.dll": {}
+        }
+      },
+      "Antlr/3.4.1.9004": {
+        "runtime": {
+          "lib/Antlr3.Runtime.dll": {
+            "assemblyVersion": "3.4.1.9004",
+            "fileVersion": "3.4.1.9004"
+          }
+        }
+      },
+      "Newtonsoft.Json/5.0.4": {
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "5.0.4.16025"
+          }
+        }
+      },
+      "System.Json/4.7.1": {
+        "runtime": {
+          "lib/netstandard2.0/System.Json.dll": {
+            "assemblyVersion": "2.0.8.0",
+            "fileVersion": "4.700.20.21406"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Text.Encodings.Web/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Text.Json/6.0.2": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "6.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/System.Text.Json.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.6406"
+          }
+        }
+      },
+      "WebGrease/1.6.0": {
+        "dependencies": {
+          "Antlr": "3.4.1.9004",
+          "Newtonsoft.Json": "5.0.4"
+        },
+        "runtime": {
+          "lib/WebGrease.dll": {
+            "assemblyVersion": "1.6.5135.21930",
+            "fileVersion": "1.6.5135.21930"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MakeWebableJson/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Antlr/3.4.1.9004": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c1S+HBE+KYA5EBxtn25LEK02hHPH/tDQ6RviUTTCJpZIPoputtn8ArsQJy9lVJWZOnw37ufByO2Fmf1M8wpr8Q==",
+      "path": "antlr/3.4.1.9004",
+      "hashPath": "antlr.3.4.1.9004.nupkg.sha512"
+    },
+    "Newtonsoft.Json/5.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aooA15Gkq+lfhbtHRpu0f4t9yV4WNCqbTB1wTqlI/d6yftWR7kcyOckXrTnpBd04vpZefVwYlVBRpi3zcP0vlA==",
+      "path": "newtonsoft.json/5.0.4",
+      "hashPath": "newtonsoft.json.5.0.4.nupkg.sha512"
+    },
+    "System.Json/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XymImdgljgVEkd9trFSKWlNJac1Hr+L9lwFLQSUUQfFMkm88AHI6DINAMhpoiUWQIPLIqEjR702eydUb4Qb3Ng==",
+      "path": "system.json/4.7.1",
+      "hashPath": "system.json.4.7.1.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
+      "path": "system.text.encodings.web/6.0.0",
+      "hashPath": "system.text.encodings.web.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0nE2gwXLn3PTBOPwORLqwuYvWB+Beomt9ZBX+6LmogMNKUvfD1SoDb/ycB1vBntT94rGaB/SvxEyeLu14H6aEg==",
+      "path": "system.text.json/6.0.2",
+      "hashPath": "system.text.json.6.0.2.nupkg.sha512"
+    },
+    "WebGrease/1.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1d29edoh4IZPLig82coowiPBS1ltxT97PwEIkOk0dHqtJwD9v5C7gPm6Ot1hKHT86otKm04oDQ00x5c+PyVyxw==",
+      "path": "webgrease/1.6.0",
+      "hashPath": "webgrease.1.6.0.nupkg.sha512"
+    }
+  }
+}
